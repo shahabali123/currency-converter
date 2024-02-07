@@ -101,7 +101,7 @@ input{
     font-weight: 700;
 }
 img{
-    height: auto;
+    height: 35px;
     width: auto;
     border-radius: 100%;
 }
