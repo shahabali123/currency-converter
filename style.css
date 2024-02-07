@@ -31,6 +31,9 @@ body{
         font-weight: bolder;
         margin-top: 1rem;
     }
+    .amount input{
+        width: 60vw;
+    }
     .amount p{
         font-size: 1.7rem;
         font-weight: bold;
@@ -38,17 +41,20 @@ body{
     .dropdown{
         display: flex;
         flex-direction: column;
-        background-color: burlywood;
         border-radius: 20px;
     }
-    .select-container{
-        margin-top: 10px;   
+    form .select-container{
+        margin-top: 10px;  
+        border: none; 
     }
     .select-container img{
         height: 10vw;
         width: 10vw;
         border-radius: 100%;
         margin: 0;
+    }
+    form button{
+        width: 50vw;
     }
     form .msg{
         font-size: 1.5rem;
@@ -83,7 +89,6 @@ input{
     height: 52px;
     width: auto;
     border-radius: 10px;
-    border: 2px solid lightslategray;
 }
 .dropdown{
     display: flex;
@@ -110,7 +115,7 @@ select{
     width: auto;
     border: none;
     background-color: transparent;
-    color: darkred;
+    /* color: darkred; */
 }
 option{
     border-radius: 10px;
